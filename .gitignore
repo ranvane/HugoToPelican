@@ -1,0 +1,13 @@
+__pycache__
+*.tar
+*.zip
+*.tar.gz
+.vscode
+*.yml
+*.json
+*.pkl
+*.sav
+*.txt
+*.pyc
+test.py
+__pycache__/*
