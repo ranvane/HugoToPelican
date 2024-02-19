@@ -7,13 +7,13 @@ Convert content from o Hugo to Pelican
 安装required packages：
 
 ```bash
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 修改代码中源路径和目标路径：
 ```python
-    source_folder = ".../hugo_blog/content/post" #Hugo conentent folder
-    destination_folder = ".../pelican_blog/content" #Pelican content folder
+source_folder = ".../hugo_blog/content/post" #Hugo conentent folder
+destination_folder = ".../pelican_blog/content" #Pelican content folder
 ```
 执行脚本：
 ```python
@@ -27,12 +27,12 @@ python hugo_to_pelican.py
 ## Usage:
 Install required packages:
 ```bash
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 Modify the source and destination folder in the code:
 ```python
-        source_folder = ".../hugo_blog/content/post" #Hugo conentent folder
-        destination_folder = ".../pelican_blog/content" #Pelican content folder
+source_folder = ".../hugo_blog/content/post" #Hugo conentent folder
+destination_folder = ".../pelican_blog/content" #Pelican content folder
 ```
 Execute the script:
 ```python
