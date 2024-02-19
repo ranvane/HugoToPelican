@@ -39,4 +39,5 @@ Execute the script:
 python hugo_to_pelican.py
 ```
 After the conversion, copy the `images` folder to the output folder of pelican_blog.
+
 For the Hugo metadata conversion, you can modify the code in the function `write_peclican` to add the implementation.
