@@ -22,6 +22,8 @@ python hugo_to_pelican.py
 
 转换完成后将`images` 文件夹拷贝到pelican_blog的output文件夹中。
 
+至于Hugo的其他metadata转换，可以直接修改函数`write_peclican`的代码，添加实现。
+
 ## Usage:
 Install required packages:
 ```bash
@@ -37,3 +39,4 @@ Execute the script:
 python hugo_to_pelican.py
 ```
 After the conversion, copy the `images` folder to the output folder of pelican_blog.
+For the Hugo metadata conversion, you can modify the code in the function `write_peclican` to add the implementation.
