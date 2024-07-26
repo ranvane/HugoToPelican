@@ -68,8 +68,8 @@ def write_peclican(file_path, metadata, markdown_content):
 
 if __name__ == "__main__":
     # 使用方法：
-    source_folder = ".../hugo_blog/content/post"
-    destination_folder = ".../pelican_blog/content"
+    source_folder = r"D:\ranvane_hugo_blog\content\post"
+    destination_folder = r"D:\ranvane_pelican_blog\content"
 
     if not os.path.exists(destination_folder):
         os.makedirs(destination_folder)  # 确保目标文件夹存在
